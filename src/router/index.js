@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Product from '../views/product/Index.vue'
-import ProductDetail from '../views/product/Detail.vue'
+import Product from '../views/product/IndexProduct.vue'
+import ProductDetail from '../views/product/DetailProduct.vue'
 import Cart from '../views/cart/Index.vue'
 
 Vue.use(VueRouter)
@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: '/product/:id',
-    name: 'productdetail',
+    name: 'product-detail',
     component: ProductDetail
   }, 
   {
